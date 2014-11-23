@@ -1,0 +1,5 @@
+[user]
+	name = Paul Mist
+	email = paulmist@gmail.com
+[credential]
+	helper = osxkeychain
