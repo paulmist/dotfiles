@@ -82,6 +82,9 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
 # alias zshconfig="st ~/.zshrc"
 # alias ohmyzsh="st ~/.oh-my-zsh"
 
+alias w="cd ~/Workspace"
+alias wf="cd ~/Workspace/Freelance"
+
 alias ots="cd ~/Local/OTS/Build/wp-content/themes/ots"
 
 alias wpddb="wp deploy push dev --what=db"
