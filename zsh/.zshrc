@@ -85,12 +85,13 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
 alias w="cd ~/Workspace"
 alias wf="cd ~/Workspace/Freelance"
 
-alias ots="cd ~/Local/OTS/Build/wp-content/themes/ots"
+alias ots="cd ~/Workspace/Freelance/OutToSea/OTS/Build/wp-content/themes/ots"
+alias pas="cd ~/Workspace/Freelance/OutToSea/Peggs\ and\ Son/"
 
 alias wpddb="wp deploy push dev --what=db"
 alias wpdt="wp deploy push dev --what=themes"
 alias wpdp="wp deploy push dev --what=plugins"
-alias wpda="wp deploy push dev --what=db && wp deploy push dev --what=themes && wp deploy push dev --what=plugins"
+alias wpda="wp deploy push dev --what=db && wp deploy push dev --what=themes && wp deploy push dev --what=plugins && wp deploy push dev --what=uploads"
 
 ##
 # WP-CLI / XAMPP compat
