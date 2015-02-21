@@ -93,6 +93,8 @@ alias wpdt="wp deploy push dev --what=themes"
 alias wpdp="wp deploy push dev --what=plugins"
 alias wpda="wp deploy push dev --what=db && wp deploy push dev --what=themes && wp deploy push dev --what=plugins && wp deploy push dev --what=uploads"
 
+alias bru="brew update; brew upgrade"
+
 ##
 # WP-CLI / XAMPP compat
 ##
