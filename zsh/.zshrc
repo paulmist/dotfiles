@@ -85,6 +85,8 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
 alias w="cd ~/Workspace"
 alias wf="cd ~/Workspace/Freelance"
 
+alias ws="cd ~/Workspace/Webstars/Clients/Webstars/Website\ 2014/Build"
+
 alias ots="cd ~/Workspace/Freelance/OutToSea/OTS/Build/wp-content/themes/ots"
 alias pas="cd ~/Workspace/Freelance/OutToSea/Peggs\ and\ Son/"
 
@@ -98,9 +100,9 @@ alias bru="brew update; brew upgrade"
 ##
 # WP-CLI / XAMPP compat
 ##
-echo $PATH | grep -q -s "/Applications/MAMP/bin/php/php5.6.2/bin"
+echo $PATH | grep -q -s "/Applications/MAMP/bin/php/php5.6.7/bin"
 if [ $? -eq 1 ] ; then
-	export XAMPP_PATH=/Applications/MAMP/bin/php/php5.6.2/bin
+	export XAMPP_PATH=/Applications/MAMP/bin/php/php5.6.7/bin
 	export PATH="$XAMPP_PATH:$PATH"
 fi
 export PATH=$PATH:/Applications/MAMP/bin:/Applications/MAMP/Library/bin
