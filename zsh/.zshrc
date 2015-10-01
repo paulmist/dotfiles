@@ -82,6 +82,8 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
 # alias zshconfig="st ~/.zshrc"
 # alias ohmyzsh="st ~/.oh-my-zsh"
 
+. `brew --prefix`/etc/profile.d/z.sh
+
 alias w="cd ~/Workspace"
 alias wf="cd ~/Workspace/Freelance"
 
@@ -89,6 +91,10 @@ alias ws="cd ~/Workspace/Webstars/Clients/Webstars/Website\ 2014/Build"
 
 alias ots="cd ~/Workspace/Freelance/OutToSea/OTS/Build/wp-content/themes/ots"
 alias pas="cd ~/Workspace/Freelance/OutToSea/Peggs\ and\ Son/"
+
+alias mrb="cd ~/Workspace/Freelance/Mr\ Bongo/Build/"
+alias mml="cd ~/Workspace/Projects/Mister\ Mist/Build_3.0.1/"
+alias mml="cd ~/Workspace/Projects/mistermist"
 
 alias wpddb="wp deploy push dev --what=db"
 alias wpdt="wp deploy push dev --what=themes"
